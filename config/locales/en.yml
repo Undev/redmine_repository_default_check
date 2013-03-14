@@ -1,0 +1,3 @@
+en:
+  text_default_repository_not_found: "Warning! There is no default repository!"
+  text_repository_wo_identifier: "Warning! There is repository without identifier and its not default!"

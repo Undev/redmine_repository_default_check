@@ -10,10 +10,12 @@ you can do so by changing into your plugin directory and issuing a command like
 
         git clone git://github.com/Undev/redmine_repository_default_check.git
 
-3. Restart Redmine
+2. Restart Redmine
 
 ## Usage
 
+Plugin checks that default repository is present, and other (not default) repositories has identifiers.
+Otherwise you will see appropriate warnings in repository tab on project settings page.
 
 ## Testing
 
