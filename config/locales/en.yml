@@ -1,3 +1,3 @@
 en:
-  text_default_repository_not_found: "Warning! Default repository is not selected. Until a default repository is selected the project's "Repository" tab will be hidden."
+  text_default_repository_not_found: "Warning! Default repository is not selected. Until a default repository is selected the project's 'Repository' tab will be hidden."
   text_repository_wo_identifier: "Warning! There is a repository without an identifier and it's not default. Until this is fixed the repository will not be accessible."
