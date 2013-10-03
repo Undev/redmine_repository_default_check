@@ -1,5 +1,8 @@
 # Redmine repository default check
 
+[![Build Status](https://travis-ci.org/Undev/redmine_repository_default_check.png)](https://travis-ci.org/Undev/redmine_repository_default_check)
+[![Code Climate](https://codeclimate.com/github/Undev/redmine_repository_default_check.png)](https://codeclimate.com/github/Undev/redmine_repository_default_check)
+
 Redmine plugin checks that a project has the default repository.
 
 ## Installation
