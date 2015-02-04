@@ -36,6 +36,8 @@ This plugin is compatible with Redmine 2.x only.
 
 4. Restart Redmine.
 
+Now you should be able to see the plugin in **Administration > Plugins**.
+
 ## Usage
 
 The plugin checks the repositories listed on the **Repositories** tab of the project settings. If the main repository is not set or some repositories do not have identifiers, the plugin displays the appropriate warnings.
