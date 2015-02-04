@@ -49,7 +49,7 @@ The plugin also warns you if you forget to specify the identifier when you creat
 
 ## License
 
-Copyright (c) 2014 Undev
+Copyright (c) 2015 Undev
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
