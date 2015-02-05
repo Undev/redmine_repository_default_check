@@ -24,15 +24,16 @@ This plugin is compatible with Redmine 2.x only.
 
             git clone https://github.com/Undev/redmine_repository_default_check.git plugins/redmine_repository_default_check
 
-2. Update the local package index and install the dependencies:
+2. Install the required gems using the command:  
 
-         sudo apt-get update  
-         sudo apt-get install libxml2-dev libxslt-dev
+        bundle install  
 
-3. Update the Gemfile.lock file by running the following commands:  
+    * In case of bundle install errors, remove the Gemfile.lock file, update the local package index and install the required dependencies. Then execute the bundle install command again:  
 
-         rm Gemfile.lock  
-         bundle install
+            rm Gemfile.lock
+            sudo apt-get update
+            sudo apt-get install -y libxml2-dev libxslt-dev libpq-dev
+            bundle install
 
 4. Restart Redmine.
 
