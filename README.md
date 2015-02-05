@@ -35,7 +35,7 @@ This plugin is compatible with Redmine 2.x only.
             sudo apt-get install -y libxml2-dev libxslt-dev libpq-dev
             bundle install
 
-4. Restart Redmine.
+3. Restart Redmine.
 
 Now you should be able to see the plugin in **Administration > Plugins**.
 
