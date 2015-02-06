@@ -6,9 +6,9 @@ Rails.application.paths["app/overrides"] << File.expand_path("../app/overrides",
 require 'repo_default_check'
 
 Redmine::Plugin.register :redmine_repository_default_check do
-  name 'Redmine repository default check'
+  name 'Redmine Default Repository Check Plugin'
   author 'Undev'
-  description 'Redmine plugin checks that a project has the default repository'
+  description 'This plugin checks if the main repository is set for a Redmine project and other repositories have identifiers.'
   version '0.1.0'
   url 'https://github.com/Undev/redmine_repository_default_check'
   author_url 'https://github.com/Undev'
