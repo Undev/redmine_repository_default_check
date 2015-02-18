@@ -4,15 +4,7 @@ module RepoDefaultCheck::ApplicationControllerPatch
   extend ActiveSupport::Concern
 
   included do
-    before_filter :include_repo_default_check
-  end
-
-  # A way to make plugin helpers available in all views
-  def include_repo_default_check
-    unless _helpers.included_modules.include? RepoDefaultCheckHelper
-      self.class.helper RepoDefaultCheckHelper
-    end
-    true
+    lazy_helper :repo_default_check
   end
 end
 
