@@ -48,6 +48,10 @@ The plugin checks the repositories listed on the **Repositories** tab of the pro
 The plugin also warns you if you forget to specify the identifier when you create or edit the repository.
 ![repository check](repository_check_3.PNG)
 
+## Maintainers
+
+Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
+
 ## License
 
 Copyright (c) 2015 Undev
