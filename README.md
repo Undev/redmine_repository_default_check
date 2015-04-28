@@ -28,14 +28,14 @@ This plugin is compatible with Redmine 2.x only.
 
         bundle install  
 
-    * In case of bundle install errors, remove the Gemfile.lock file, update the local package index and install the required dependencies. Then execute the bundle install command again:  
+    * In case of bundle install errors, remove the Gemfile.lock file, update the local package index and install the required dependencies. Then execute the `bundle install` command again:  
 
             rm Gemfile.lock
             sudo apt-get update
             sudo apt-get install -y libxml2-dev libxslt-dev libpq-dev
             bundle install
 
-4. Restart Redmine.
+3. Restart Redmine.
 
 Now you should be able to see the plugin in **Administration > Plugins**.
 
@@ -47,6 +47,10 @@ The plugin checks the repositories listed on the **Repositories** tab of the pro
 
 The plugin also warns you if you forget to specify the identifier when you create or edit the repository.
 ![repository check](repository_check_3.PNG)
+
+## Maintainers
+
+Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
 
 ## License
 
